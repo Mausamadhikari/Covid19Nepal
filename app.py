@@ -1,6 +1,5 @@
-import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+
 
 url_for_data = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
 
@@ -28,4 +27,4 @@ data = data[
     ]
 ]
 
-data.to_csv("covidNepal.csv",index=True)
+data.to_csv("covidNepal.csv", index=True)
